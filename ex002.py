@@ -1,4 +1,4 @@
-# NÚMERO IGUAL A 10
+# MAIOR QUE 10
 
 import os
 os.system('cls')
@@ -10,4 +10,5 @@ if numero > 10:
 elif numero == 10:
     print('O número é igual a 10.')
 else:
+
     print('Não é maior que 10.')
