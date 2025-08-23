@@ -3,7 +3,7 @@
 import os
 os.system('cls')
 
-idade = int(input("Digite sua idade: ")) # pedir para que o usuário digitasse sua idade.
+idade = int(input("Digite sua idade: ")) # pedi para que o usuário digitasse sua idade.
 
 #idade = 20
 
@@ -18,3 +18,4 @@ else:
 # if - se a idade for >= que 18, é maior de idade,
 # elif - senão, se for >= 14, é adolecente,
 # else - se não for, é menor de idade. 
+
