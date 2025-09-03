@@ -23,11 +23,11 @@ match opcao:
         print(f'Valor a pagar: R${total_a_vista}')
     
     case 2:
-        parcelas = 6
+        parcelas = int(input('Em quantas parcelas deseja dividir: '))
+        #parcelas = 6
         forma_pag = 'À prazo'
-        valor_parcela = produto / 6
+        valor_parcela = produto / parcelas
         total_a_prazo = produto
-        
         print('Produto: ')
         print(f'Valor do produto: R${produto}')
         print(f'Forma de pagamento: {forma_pag}')
@@ -35,5 +35,3 @@ match opcao:
         print(f'Valor a pagar: R${total_a_prazo}')
     case _:
         print('Erro')
-
-
